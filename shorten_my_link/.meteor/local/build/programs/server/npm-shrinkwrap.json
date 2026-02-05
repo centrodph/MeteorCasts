@@ -1,85 +1,199 @@
 {
   "name": "meteor-dev-bundle",
   "version": "0.0.0",
-  "dependencies": {
-    "amdefine": {
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "version": "0.0.0",
+      "hasInstallScript": true,
+      "dependencies": {
+        "fibers": "1.0.8",
+        "meteor-promise": "0.5.1",
+        "semver": "5.7.2",
+        "source-map-support": "https://github.com/meteor/node-source-map-support/tarball/1912478769d76e5df4c365e147f25896aee6375e",
+        "underscore": "1.5.2"
+      },
+      "devDependencies": {
+        "chalk": "0.5.1",
+        "eachline": "https://github.com/meteor/node-eachline/tarball/ff89722ff94e6b6a08652bf5f44c8fffea8a21da"
+      }
+    },
+    "node_modules/amdefine": {
       "version": "1.0.0",
-      "from": "amdefine@>=0.0.4",
-      "resolved": "https://registry.npmjs.org/amdefine/-/amdefine-1.0.0.tgz"
+      "resolved": "https://registry.npmjs.org/amdefine/-/amdefine-1.0.0.tgz",
+      "integrity": "sha512-AhIk36FIyH9lsHdzXxwo/aWm1QQIChd1cewUHtC2E4hczLKgT/WpVJMZGxKwkvW07p1Bn2gxwRFPeeguHocrQA==",
+      "engines": {
+        "node": ">=0.4.2"
+      }
     },
-    "ansi-regex": {
+    "node_modules/ansi-regex": {
       "version": "0.2.1",
-      "from": "ansi-regex@>=0.2.0 <0.3.0",
-      "resolved": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-0.2.1.tgz"
+      "resolved": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-0.2.1.tgz",
+      "integrity": "sha512-sGwIGMjhYdW26/IhwK2gkWWI8DRCVO6uj3hYgHT+zD+QL1pa37tM3ujhyfcJIYSbsxp7Gxhy7zrRW/1AHm4BmA==",
+      "dev": true,
+      "engines": {
+        "node": ">=0.10.0"
+      }
     },
-    "ansi-styles": {
+    "node_modules/ansi-styles": {
       "version": "1.1.0",
-      "from": "ansi-styles@>=1.1.0 <2.0.0",
-      "resolved": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-1.1.0.tgz"
+      "resolved": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-1.1.0.tgz",
+      "integrity": "sha512-f2PKUkN5QngiSemowa6Mrk9MPCdtFiOSmibjZ+j1qhLGHHYsqZwmBMRF3IRMVXo8sybDqx2fJl2d/8OphBoWkA==",
+      "dev": true,
+      "engines": {
+        "node": ">=0.10.0"
+      }
     },
-    "asap": {
+    "node_modules/asap": {
       "version": "2.0.3",
-      "from": "asap@>=2.0.3 <2.1.0",
-      "resolved": "https://registry.npmjs.org/asap/-/asap-2.0.3.tgz"
+      "resolved": "https://registry.npmjs.org/asap/-/asap-2.0.3.tgz",
+      "integrity": "sha512-uc3Q8dyI94yhhVU7k6cnbKX4jg2gHJ2r9GO4ljQPkHtuYV/OkFlZ2yj3g2NRZcBq5svenL2VB7Qhh7rMhUx4ag=="
     },
-    "escape-string-regexp": {
-      "version": "1.0.5",
-      "from": "escape-string-regexp@>=1.0.0 <2.0.0",
-      "resolved": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz"
-    },
-    "fibers": {
-      "version": "1.0.8",
-      "from": "fibers@1.0.8",
-      "resolved": "https://registry.npmjs.org/fibers/-/fibers-1.0.8.tgz"
-    },
-    "has-ansi": {
-      "version": "0.1.0",
-      "from": "has-ansi@>=0.1.0 <0.2.0",
-      "resolved": "https://registry.npmjs.org/has-ansi/-/has-ansi-0.1.0.tgz"
-    },
-    "meteor-promise": {
+    "node_modules/chalk": {
       "version": "0.5.1",
-      "from": "meteor-promise@0.5.1",
-      "resolved": "https://registry.npmjs.org/meteor-promise/-/meteor-promise-0.5.1.tgz"
+      "resolved": "https://registry.npmjs.org/chalk/-/chalk-0.5.1.tgz",
+      "integrity": "sha512-bIKA54hP8iZhyDT81TOsJiQvR1gW+ZYSXFaZUAvoD4wCHdbHY2actmpTE4x344ZlFqHbvoxKOaESULTZN2gstg==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "ansi-styles": "^1.1.0",
+        "escape-string-regexp": "^1.0.0",
+        "has-ansi": "^0.1.0",
+        "strip-ansi": "^0.3.0",
+        "supports-color": "^0.2.0"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      }
     },
-    "promise": {
+    "node_modules/eachline": {
+      "version": "2.3.3",
+      "resolved": "https://github.com/meteor/node-eachline/tarball/ff89722ff94e6b6a08652bf5f44c8fffea8a21da",
+      "integrity": "sha512-inuhbCNWfPM9wUAXE2OLrMT8+aN3fiLT5mvYIpqxMPeq5A8SGV9A+fmhJQWWORS7YP/NAseLEDxq2zkzbqN6eQ==",
+      "dev": true,
+      "dependencies": {
+        "type-of": "~2"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    "node_modules/escape-string-regexp": {
+      "version": "1.0.5",
+      "resolved": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz",
+      "integrity": "sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==",
+      "dev": true,
+      "engines": {
+        "node": ">=0.8.0"
+      }
+    },
+    "node_modules/fibers": {
+      "version": "1.0.8",
+      "resolved": "https://registry.npmjs.org/fibers/-/fibers-1.0.8.tgz",
+      "integrity": "sha512-FiZ/dJ82JV2r5APt0hP39i9Ff0/FKLgV9/fPo+OaVRNcwPTSUNrvVpwDCG/EjCftoLXULkU0a9csOghdVcfxfw==",
+      "hasInstallScript": true,
+      "engines": {
+        "node": ">=0.5.2"
+      }
+    },
+    "node_modules/has-ansi": {
+      "version": "0.1.0",
+      "resolved": "https://registry.npmjs.org/has-ansi/-/has-ansi-0.1.0.tgz",
+      "integrity": "sha512-1YsTg1fk2/6JToQhtZkArMkurq8UoWU1Qe0aR3VUHjgij4nOylSWLWAtBXoZ4/dXOmugfLGm1c+QhuD0JyedFA==",
+      "dev": true,
+      "dependencies": {
+        "ansi-regex": "^0.2.0"
+      },
+      "bin": {
+        "has-ansi": "cli.js"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    "node_modules/meteor-promise": {
+      "version": "0.5.1",
+      "resolved": "https://registry.npmjs.org/meteor-promise/-/meteor-promise-0.5.1.tgz",
+      "integrity": "sha512-Q9m1hF9gAVDutHiVMFDoNEPEL090YugVJU7rwlsFzUNt88pqWP5DudduoYp2RaZrvTUFBxhR+qSVDRfM87ij/w==",
+      "dependencies": {
+        "promise": "7.0.4"
+      }
+    },
+    "node_modules/promise": {
       "version": "7.0.4",
-      "from": "promise@7.0.4",
-      "resolved": "https://registry.npmjs.org/promise/-/promise-7.0.4.tgz"
+      "resolved": "https://registry.npmjs.org/promise/-/promise-7.0.4.tgz",
+      "integrity": "sha512-8z1gTSL9cMgqCx8zvMYhzT0eQURAQNSQqR8B2hGfCYkAzt1vjReVdKBv4YwGw3OXAPaxfm4aR0gLoBUon4VmmA==",
+      "dependencies": {
+        "asap": "~2.0.3"
+      }
     },
-    "semver": {
-      "version": "4.1.0",
-      "from": "semver@4.1.0"
+    "node_modules/semver": {
+      "version": "5.7.2",
+      "resolved": "https://registry.npmjs.org/semver/-/semver-5.7.2.tgz",
+      "integrity": "sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==",
+      "license": "ISC",
+      "bin": {
+        "semver": "bin/semver"
+      }
     },
-    "source-map": {
+    "node_modules/source-map": {
       "version": "0.1.32",
-      "from": "source-map@0.1.32",
-      "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.1.32.tgz"
+      "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.1.32.tgz",
+      "integrity": "sha512-htQyLrrRLkQ87Zfrir4/yN+vAUd6DNjVayEjTSHXu29AYQJw57I4/xEL/M6p6E/woPNJwvZt6rVlzc7gFEJccQ==",
+      "dependencies": {
+        "amdefine": ">=0.0.4"
+      },
+      "engines": {
+        "node": ">=0.8.0"
+      }
     },
-    "source-map-support": {
+    "node_modules/source-map-support": {
       "version": "0.3.2",
-      "from": "https://github.com/meteor/node-source-map-support/tarball/1912478769d76e5df4c365e147f25896aee6375e",
-      "resolved": "https://github.com/meteor/node-source-map-support/tarball/1912478769d76e5df4c365e147f25896aee6375e"
+      "resolved": "https://github.com/meteor/node-source-map-support/tarball/1912478769d76e5df4c365e147f25896aee6375e",
+      "integrity": "sha512-2A3Rox3Zq2hUrDE/Vi3LEa/zLCOMj8F1HlMttze0jZmmQLzJjosp1mVtUCMbOTKIurqVm5xOatncI+6KJrngCg==",
+      "license": "MIT",
+      "dependencies": {
+        "source-map": "0.1.32"
+      }
     },
-    "strip-ansi": {
+    "node_modules/strip-ansi": {
       "version": "0.3.0",
-      "from": "strip-ansi@>=0.3.0 <0.4.0",
-      "resolved": "https://registry.npmjs.org/strip-ansi/-/strip-ansi-0.3.0.tgz"
+      "resolved": "https://registry.npmjs.org/strip-ansi/-/strip-ansi-0.3.0.tgz",
+      "integrity": "sha512-DerhZL7j6i6/nEnVG0qViKXI0OKouvvpsAiaj7c+LfqZZZxdwZtv8+UiA/w4VUJpT8UzX0pR1dcHOii1GbmruQ==",
+      "dev": true,
+      "dependencies": {
+        "ansi-regex": "^0.2.1"
+      },
+      "bin": {
+        "strip-ansi": "cli.js"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      }
     },
-    "supports-color": {
+    "node_modules/supports-color": {
       "version": "0.2.0",
-      "from": "supports-color@>=0.2.0 <0.3.0",
-      "resolved": "https://registry.npmjs.org/supports-color/-/supports-color-0.2.0.tgz"
+      "resolved": "https://registry.npmjs.org/supports-color/-/supports-color-0.2.0.tgz",
+      "integrity": "sha512-tdCZ28MnM7k7cJDJc7Eq80A9CsRFAAOZUy41npOZCs++qSjfIy7o5Rh46CBk+Dk5FbKJ33X3Tqg4YrV07N5RaA==",
+      "dev": true,
+      "bin": {
+        "supports-color": "cli.js"
+      },
+      "engines": {
+        "node": ">=0.10.0"
+      }
     },
-    "type-of": {
+    "node_modules/type-of": {
       "version": "2.0.1",
-      "from": "type-of@>=2.0.0 <3.0.0",
-      "resolved": "https://registry.npmjs.org/type-of/-/type-of-2.0.1.tgz"
+      "resolved": "https://registry.npmjs.org/type-of/-/type-of-2.0.1.tgz",
+      "integrity": "sha512-39wxbwHdQ2sTiBB8wAzKfQ9GN+om8w+sjNWzr+vZJR5AMD5J+J7Yc8AtXnU9r/r2c8XiDZ/smxutDmZehX/qpQ==",
+      "dev": true
     },
-    "underscore": {
+    "node_modules/underscore": {
       "version": "1.5.2",
-      "from": "underscore@1.5.2",
-      "resolved": "https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz"
+      "resolved": "https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz",
+      "integrity": "sha512-yejOFsRnTJs0N9CK5Apzf6maDO2djxGoLLrlZlvGs2o9ZQuhIhDL18rtFyy4FBIbOkzA6+4hDgXbgz5EvDQCXQ=="
     }
   }
 }
